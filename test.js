@@ -11,7 +11,7 @@ formBtn.addEventListener('click', function() {
         deleteBtn.textContent = '削除'; 
         deleteBtn.addEventListener('click', function() {
             listItem.remove();
-        })
+        });
     listItem.appendChild(deleteBtn);
     inputForm.value = '';
 });
